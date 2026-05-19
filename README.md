@@ -10,4 +10,13 @@
 * **No**
 
 
+### 3) What is the difference between navigation and snapshot mode?
 
+* **Navigation mode:** Analyzes the page right after it loads, so it is best for checking the overall page-load performance and user experience of the site.
+* **Snapshot mode:** Analyzes the page in its current state, so it is better for checking things like accessibility issues on the current DOM, but it does not measure page load performance or JavaScript behavior over time.
+
+### 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+
+* Improve the **Speed Index**, since Lighthouse showed it taking 12.0 seconds.
+* Optimize images and other page assets so the visible content loads faster.
+* Improve accessibility by adding clearer labels, alt text, and better structure for buttons, headings, and interactive elements.
